@@ -10,8 +10,6 @@ Copy the `.env.example` to `.env` and fill in your API keys:
 cp .env.example .env
 ```
 
-With the default setup, the `openai` provider is configured to use a GitHub Models token through the OpenAI-compatible SDK. Set `GITHUB_TOKEN` and use a cheaper default model such as `gpt-4o-mini`.
-
 ### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
